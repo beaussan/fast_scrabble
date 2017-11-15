@@ -43,7 +43,7 @@ std::istream &safeGetline(std::istream &is, std::string &t) {
 
 
 int main(int argc, char **argv) {
-    if (argc != 3 || argv[1] != "-w") {
+    if (argc != 3 || argv[1] != string("-w")) {
         cout << "You must add a dictionary as an input !" << endl;
         cout << "Usage : " << argv[0] << " -w [dictionary] " << endl;
         cout << argv << endl;

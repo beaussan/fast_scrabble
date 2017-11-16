@@ -59,7 +59,7 @@ int main(int argc, char **argv) {
     }
 
 
-    cout << "Using dictonary " << argv[2] << endl;
+    // cout << "Using dictonary " << argv[2] << endl;
 
     std::multimap<string, string> dico;
 
@@ -77,7 +77,7 @@ int main(int argc, char **argv) {
     ifs.close();
 
     string in;
-    cout << "Awaiting input" << endl;
+    // cout << "Awaiting input" << endl;
 
     while (true) {
         cin >> in;
